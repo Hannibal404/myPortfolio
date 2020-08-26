@@ -1,32 +1,39 @@
 {
+  "name": "instafolio",
+  "version": "0.1.0",
   "private": true,
-  "name": "cara",
-  "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
-  "version": "0.2.0",
-  "author": "LekoArts <hello@lekoarts.de>",
-  "license": "MIT",
-  "starter-name": "gatsby-starter-portfolio-cara",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
-    "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
-    "start": "gatsby develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
   "dependencies": {
-    "@lekoarts/gatsby-theme-cara": "^1.2.10",
-    "gatsby": "^2.20.36",
-    "gatsby-plugin-google-analytics": "^2.1.8",
-    "gatsby-plugin-manifest": "^2.2.6",
-    "gatsby-plugin-netlify": "^2.1.6",
-    "gatsby-plugin-offline": "^2.2.7",
-    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.10",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "nodemailer": "^6.4.8",
+    "qs": "^6.9.4",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.13.1",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.3"
   },
-  "devDependencies": {
-    "cross-env": "^5.2.0"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

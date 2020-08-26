@@ -1,0 +1,101 @@
+.footer-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  text-align: center;
+}
+.social-media-div {
+  font-size: 2em;
+}
+
+.icon-button i {
+  color: white;
+}
+.icon-button {
+  margin-bottom: 10px;
+}
+
+.icon-button i {
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.2rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  margin-bottom: 10px;
+}
+
+.facebook i {
+  background-color: #3b5998;
+}
+
+.linkedin i {
+  background-color: #0e76a8;
+}
+
+.github i {
+  background-color: #333;
+}
+
+.gitlab i {
+  background-color: #fca326;
+}
+
+.google i {
+  background-color: #ea4335;
+}
+
+.twitter i {
+  background-color: #1da1f2;
+}
+
+.instagram i {
+  background-color: rgb(253, 83, 111);
+}
+
+.footer-text {
+  text-align: center;
+  color: #868e96;
+  font-size: 20px;
+}
+
+.footer-div {
+  margin-top: 1.5rem;
+}
+
+.twitter i,
+.google i,
+.gitlab i,
+.github i,
+.linkedin i,
+.facebook i,
+.instagram i {
+  -o-transition: ease-in 0.3s; /* opera */
+  -ms-transition: ease-in 0.3s; /* IE 10 */
+  -moz-transition: ease-in 0.3s; /* Firefox */
+  -webkit-transition: ease-in 0.3s; /* safari and chrome */
+}
+.twitter i:hover,
+.google i:hover,
+.gitlab i:hover,
+.github i:hover,
+.linkedin i:hover,
+.facebook i:hover,
+.instagram i:hover {
+  background-color: var(--social-icons);
+  transition: 0.3s ease-in;
+}
+
+@media (max-width: 768px) {
+  .social-media-div {
+    text-align: center;
+  }
+}
